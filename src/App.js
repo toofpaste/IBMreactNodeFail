@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import GetUser from './GetUser';
 const personality = require('watson-personality')
+const PersonalityInsightsV3 = require('ibm-watson/personality-insights/v3');
+
 
 personality('@billyzacsmith')
   .then(function(personalityProfile) {
@@ -13,7 +15,7 @@ personality('@billyzacsmith')
     console.log(error)
   })
 
-  
+
 class App extends Component{
   render(){
   return (

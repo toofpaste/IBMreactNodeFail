@@ -32,3 +32,10 @@ class GetUser extends Component {
 }
 
 export default GetUser;
+
+
+// curl -X POST -u "apikey:1rL0qaf0W1vCMjaydmTZwmzFxeq9WKVnFWyMVW3RLpUZ" \
+// --header "Content-Type: text/plain;charset=utf-8" \
+// --header "Accept: application/json" \
+// --data-binary @profile.txt \
+// "https://gateway-syd.watsonplatform.net/personality-insights/api/v3/profile?version=2017-10-13"
