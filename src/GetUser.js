@@ -19,7 +19,6 @@ class GetUser extends Component {
                 )
             })
             this.setState({pics: pics});
-            console.log("state: ", this.state.pics);
         })
     }
     render(){
